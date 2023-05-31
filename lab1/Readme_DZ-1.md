@@ -9,4 +9,4 @@
 1. Топология сети CLOS
 
 
-![https://github.com/Vadpos67/otus/lab1/clos.PNG]
+
