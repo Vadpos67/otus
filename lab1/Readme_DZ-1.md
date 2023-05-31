@@ -7,3 +7,4 @@
 
 Решение.
 1. Топология сети CLOS
+![image](https://github.com/Vadpos67/otus/lab1/clos.png
