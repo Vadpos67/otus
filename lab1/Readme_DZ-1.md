@@ -8,4 +8,4 @@
 Решение.
 1. Топология сети CLOS.
 
-lab1/clos.PNG
+![Alt text](clos.PNG)
