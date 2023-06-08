@@ -171,5 +171,20 @@ interface Ethernet1/2
   no shutdown
 
 
+  **Проверка настройки.**
+
+  spine-1# sh ip ospf nei
+ 
+ OSPF Process ID UNDERLEY VRF default
+ 
+ Total number of neighbors: 2
+ 
+ Neighbor ID     Pri State            Up Time  Address         Interface
+ 
+ 10.0.4.1          1 FULL/ -          01:04:06 10.0.3.1        Eth1/1
+ 
+ 10.0.5.1          1 FULL/ -          00:09:32 10.0.3.3        Eth1/2
+
+
 
 
