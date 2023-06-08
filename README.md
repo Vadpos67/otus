@@ -48,7 +48,7 @@ interface Ethernet1/2
 
   no shutdown
  
-2. Config sp2:
+**2. Config sp2:**
 
 
 feature ospf
@@ -90,7 +90,7 @@ interface Ethernet1/2
 
   no shutdown
 
-3. Config lif1:
+**3. Config lif1:**
 
 feature ospf
 
@@ -130,7 +130,7 @@ interface Ethernet1/2
 
   no shutdown
 
-4.Config lif2:
+**4. Config lif2:**
 
 feature ospf
 
