@@ -9,7 +9,7 @@ Underlay. OSPF.
 ![Alt text](lab2/shema.PNG)
 
 
-1 . Config sp1:
+**1. Config sp1:**
 
 feature ospf
 
