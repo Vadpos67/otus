@@ -187,4 +187,38 @@ interface Ethernet1/2
 
 
 
+spine-2# sh ip ospf ne
+
+ OSPF Process ID UNDERLEY VRF default
+
+ Total number of neighbors: 2
+
+ Neighbor ID     Pri State            Up Time  Address         Interface
+
+ 10.0.5.1          1 FULL/ -          00:52:03 10.0.3.9        Eth1/1
+
+ 10.0.4.1          1 FULL/ -          00:11:15 10.0.3.11       Eth1/2
+
+
+spine-2# sh ip ospf route
+
+ OSPF Process ID UNDERLEY VRF default, Routing Table
+
+  (D) denotes route is directly attached      (R) denotes route is in RIB
+  (L) denotes route label is in ULIB          (NHR) denotes next-hop is in RIB
+
+10.0.3.0/31 (intra)(R) area 0.0.0.0
+     via 10.0.3.11/Eth1/2  , cost 80 distance 110 (NHR)
+
+10.0.3.2/31 (intra)(R) area 0.0.0.0
+     via 10.0.3.9/Eth1/1  , cost 80 distance 110 (NHR)
+
+10.0.3.8/31 (intra)(D) area 0.0.0.0
+     via 10.0.3.8/Eth1/1*  , cost 40 distance 110 (NHR)
+
+10.0.3.10/31 (intra)(D) area 0.0.0.0
+     via 10.0.3.10/Eth1/2*  , cost 40 distance 110 (NHR)
+
+
+
 
