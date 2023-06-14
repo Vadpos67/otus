@@ -1,0 +1,17 @@
+IS-IS. Settings
+
+(config)router isis
+(config-router)net 49.0011.0001.0001.0001.00
+(config-router) is-type <level-1 | level-1-2 | level-2-only>
+(config-if) isis circuit-type <level-1 | level-1-2 | level-2-only>
+(config-router) metric <metric> [level-1 | level-2]>
+(config-if) isis metric <metric> [level-1 | level-2]
+(config-router)# summary-address <address mask> [level-1 |
+level-2 | level-1-2] [tag <tag-number>] [metric <metric-value>]
+IS-IS. Settings
+
+show ip protocols
+show ip route isis
+show isis database
+show isis database level-1 verbose
+show isis neighbors
