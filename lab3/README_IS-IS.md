@@ -12,7 +12,7 @@ Underlay. IS-IS**
 
 **1. Config sp1:**
 
-feature ospf
+feature isis
 
 interface loopback0
 
