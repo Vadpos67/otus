@@ -6,3 +6,6 @@ Underlay. IS-IS**
 Настроить IS-IS для Underlay сети
 
 1. Схема
+
+
+![Alt text](shema.PNG)
